@@ -1,0 +1,92 @@
+/* src/index.css */
+
+/* Estilos generales del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5d7d7; /* Color de fondo claro */
+    color: #333; /* Color de texto principal */
+  }
+  
+  /* Contenedor principal */
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+    padding: 20px;
+  }
+  
+  /* Estilos básicos para botones */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #1a8160;
+    color: #fff;
+  }
+  
+  /* Estilos básicos para tarjetas */
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 400px;
+  }
+  
+  /* Encabezados dentro de tarjetas */
+  .card-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Contenido de la tarjeta */
+  .card-content {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Pie de tarjeta */
+  .card-footer {
+    text-align: right;
+  }
+  
+  /* Estilos para campos de entrada */
+  input, select, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #793e3e;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  /* Estilos para etiquetas */
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Estilos para herramientas de selección */
+  select {
+    -webkit-appearance: none; /* Quitar el estilo predeterminado en navegadores basados en WebKit */
+    -moz-appearance: none; /* Quitar el estilo predeterminado en Firefox */
+    appearance: none; /* Quitar el estilo predeterminado en navegadores modernos */
+    background-color: #b0c2be;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDEyIDEyIj4KICA8cGF0aCBkPSJNMiwyLTIuMjUsMi41IEwgMTIsMTIgMCAwIEIgMCwyIEEgMSwyIDAgMCAxIDIsMiBNNiwyIFoiIHN0cm9rZT0iIzAwNDAwMCIgc3Ryb2tlLXdpZHRoPSIxIi8+Cjwvc3ZnPg=='); /* Flecha hacia abajo */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px 12px;
+  }
+  
